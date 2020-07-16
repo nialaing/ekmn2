@@ -10,10 +10,10 @@ We used One Page Wonder for the Bootstrap template: https://github.com/StartBoot
  
 ## Credits
  
-Ebony Ford          https://github.com/emfordsvsu
-Kyle Lacy           https://github.com/360klacy
-Marsha David        https://github.com/mdavid2020
-Nia Laing           https://github.com/nialaing
+- Ebony Ford          https://github.com/emfordsvsu
+- Kyle Lacy           https://github.com/360klacy
+- Marsha David        https://github.com/mdavid2020
+- Nia Laing           https://github.com/nialaing
  
 ## Review
  
