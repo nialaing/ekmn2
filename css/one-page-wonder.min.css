@@ -51,3 +51,10 @@
 .btn-secondary:active,.btn-secondary:focus,.btn-secondary:hover{background-color:#c50!important;border-color:#c50!important}
 
 .btn-secondary:focus{box-shadow:0 0 0 .2rem rgba(255,106,0,.5)}
+
+.error{
+    background:orangered;
+    color: white;
+    padding: 5px;
+    margin:5px;
+  }
