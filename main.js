@@ -19,7 +19,7 @@ function onSubmit(e) {
   } else {
     // Create new list item with user
     const li = document.createElement('li');
-    
+    alert("Thank you!");
 
     // Add text node with input values
     //li.appendChild(document.createTextNode(`${nameInput.value}: ${emailInput.value}`));
@@ -34,6 +34,6 @@ function onSubmit(e) {
     nameInput.value = '';
     emailInput.value = '';
   }
-  alert("Thank you!");
+  
   console.log(users.textContent);
 }
