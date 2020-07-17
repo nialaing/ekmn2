@@ -19,6 +19,9 @@
 
   <!-- Custom styles for this template -->
   <link href="css/one-page-wonder.min.css" rel="stylesheet">
+  <link href="form.css" rel="stylesheet">
+  
+ 
 
 </head>
 
@@ -58,7 +61,7 @@
       
       </div>
     </div>
-    <img src="img/foodbox.jpg" alt="lunch spread" style="width: 100%;">
+    <img src="img/foodbox.jpg" class="foodfboximg" alt="lunch spread" style="width: 100%;">
   </header>
 
   <section>
@@ -84,32 +87,28 @@
                       
                         <h1 class="display-4">COVID-19 Relief</h1>
                         <br>
-                        <p> Kaleidoscope Kitchen has partnered with Helping Others Live Together Inc. (HOLT), a small social services nonprofit based in Stone Mountain, GA. We are delivering Kaleidoscope Kitchen meal kits and Kaleidoscope Care boxes to families in need, with a priority on foster care families and group homes. If you are interested in having a free meal kit and care box delivered to your door, please fill out the form below. Include the Kaleidoscope Kitchen recipe of your choice and the basic household goods you need.</p>
-                        <form action="/my-handling-form-page" method="post" id="contact">
-                            
-                            <div>
-                            <label for="name">Name:</label>
-                            <input type="text" id="name" name="user_name">
-                          </div>
-                          <div>
-                            <label for="mail">E-mail:</label>
-                            <input type="email" id="mail" name="user_mail">
-                          </div>
-                          <div>
-                            <label for="msg">Message:</label>
-                            <textarea id="msg" name="user_message"></textarea>
-                          </div>
-                          <div class="button">
-                              <button onClick="swal"type="submit" >Submit Feedback</button>
-                            </div>
-                            <div>
-                              <p>
-                                  <br>
-                                Phone: (678)382-3792<br>
-                                Visit HOLT Inc. (Dr. Theresa Holt): <a href="https://drtheresaholt.com/"">https://drtheresaholt.com/</a>
-                              </p>
-                            </div>
-                        </form>
+                        <p> Kaleidoscope Kitchen has partnered with Helping Others Live Together Inc. (HOLT), a small social services nonprofit based in Stone Mountain, GA. We are delivering Kaleidoscope Kitchen meal kits and Kaleidoscope Care boxes to families in need, with a priority on foster care families and group homes. If you are interested in having a free meal kit and care box delivered to your door, please fill out the form below. 
+                          Upon receipt of your form, we will contact you for your Kaleidoscope Kitchen recipe of choice and your basic household goods needs.</p>
+                        <section class="philanForm" class="container">  
+                            <form id="my-form">
+                                                 
+                                <div class="msg"></div>
+                                <br></br>
+                                <div>
+                                  <label for="name">Name:</label>
+                                  <input type="text" id="name">
+                                </div>
+                                <div>
+                                  <label for="email">Email:</label>
+                                  <input type="text" id="email">
+                                </div>
+                                <input class="btn" type="submit" value="Submit">
+                            </form>
+
+                            <ul id="users"style="display:none"</ul>
+                                <br></br>
+                        </section>       
+                                                    
                     </div>
                     </div>
                   </div>
@@ -129,6 +128,12 @@
           <div class="p-5">
             <h1 class="display-4">Who We Serve</h1>
            <p>HOLT Inc., a one-woman operation run by Dr. Theresa Holt, was in need of two things: a digital communication tool for her clients to tell her what they needed, and a delivery service to bring the goods to their door since many low-income families in Atlanta lack adequate transportation. The EKMN team provided both and was able to help HOLT deliver a meal kit and a Kaleidoscope Cares box full of hygiene products, house cleaning products, toilet tissue, detergent, soap, and school supplies to a grandmother raising three teenagers in Decatur, GA.</p>
+          
+            <p>
+                <br>
+              Phone: (678)382-3792<br>
+              Visit HOLT Inc. (Dr. Theresa Holt): <a href="https://drtheresaholt.com/"">https://drtheresaholt.com/</a>
+            </p>
           </div>
         </div>
       </div>
@@ -145,6 +150,8 @@
     <!-- /.container -->
   </footer>
 
+  <script src="main.js"></script>
+  
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -152,3 +159,4 @@
 </body>
 
 </html>
+© 2020 GitHub, Inc.
