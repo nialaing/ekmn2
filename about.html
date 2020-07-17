@@ -20,59 +20,71 @@
   <!-- Custom styles for this template -->
   <link href="css/one-page-wonder.min.css" rel="stylesheet">
 
+  <style>
+    .footer {
+      /* position: fixed; */
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #e4e4e4;
+      color: black;
+      text-align: center;
+    }
+    </style>
+
 </head>
 
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top bg-light">
     <div class="container">
-      <a class="navbar-brand" href="#">kaleidoscope kitchen</a>
+      <a class="navbar-brand text-dark" href="#">kaleidoscope kitchen</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">home</a>
+            <a class="nav-link text-dark" href="home.html">home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">about</a>
+            <a class="nav-link text-dark" href="about.html">about</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">international</a>
+            <a class="nav-link text-dark" href="international.html">international</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">vegetarian</a>
+            <a class="nav-link text-dark" href="vegetarian.html">vegetarian</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">philanthrophy</a>
+            <a class="nav-link text-dark" href="philanthropy.html">philanthrophy</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-    <div class="masthead-content">
-      <div class="container">
-      
-      </div>
+  <div class="masthead-content">
+    <div class="container">
+    
     </div>
-    <img src="img/4tacos.jpg" alt="lunch spread" style="width: 100%;">
-  </header>
+  </div>
+
+  <img src="img/4tacos.jpg" class="mx-auto d-block" alt="lunch spread" style="width: 95%;">
 
   <section>
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-6 order-lg-2">
           <div class="p-5">
-            <img class="img-fluid rounded-circle" src="img/Ebony.jpg" alt="">
+            <img class="img-fluid" src="img/Ebony.jpg" alt="">
           </div>
         </div>
         <div class="col-lg-6 order-lg-1">
           <div class="p-5">
             
-            <p>Hello, I am Ebony Fo          
+            <p>Hello, my name is Ebony Ford! I am a single working mother and have always had a passion for quick, healthy meals, and at this point in my life, it is a necessity. My 5 year old son and I love a good cheese and/or charcuterie board (complete with a nice glass of wine for me, of course!), especially on the hot days of summer when it is too hot to cook. My son's definition of a fun outing is to go to the farmer's market to pick out lots of fruits and vegetables!
             </p>
           </div>
         </div>
@@ -132,19 +144,21 @@
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer class="py-5 bg-black">
-    <div class="container">
-      <p class="m-0 text-center text-white small">Copyright &copy; Your Website 2020</p>
-    </div>
-    <!-- /.container -->
-  </footer>
+ 
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <div class="footer">
+    <p class="mb-0">Made with love by <b>ekmn</b>.</p>
+  </div>
 
+   <!-- Bootstrap core JavaScript -->
+   <script src="vendor/jquery/jquery.min.js"></script>
+   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+   <script>
+     $( document ).ready(function() {
+        console.log( "Hello!" );
+    })
+   </script>
 </body>
 
 </html>
-=======
