@@ -51,3 +51,45 @@
 .btn-secondary:active,.btn-secondary:focus,.btn-secondary:hover{background-color:#c50!important;border-color:#c50!important}
 
 .btn-secondary:focus{box-shadow:0 0 0 .2rem rgba(255,106,0,.5)}
+
+.foodboximg{
+  max-width: none;  
+  width: 100%;
+  margin:0;
+}
+
+.error{
+    background:orangered;
+    color: white;
+    padding: 5px;
+    margin:5px;
+  }
+
+#my-form {
+  width:500px;
+  padding: 1rem;
+  background: #f4f4f4;
+}
+
+#my-form label {
+  display: block;
+}
+
+#my-form input[type='text'] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  border: 0;
+  background: #333;
+  color: #fff;
+  border-radius: 5px;
+  margin: 5px 0;
+}

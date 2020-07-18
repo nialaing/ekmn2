@@ -54,7 +54,7 @@
   padding-top: $navbar-brand-padding-y;
   padding-bottom: $navbar-brand-padding-y;
   margin-right: $navbar-padding-x;
-  @include font-size($navbar-brand-font-size);
+  font-size: 5rem;
   line-height: inherit;
   white-space: nowrap;
 
@@ -280,6 +280,15 @@
       color: $navbar-dark-brand-hover-color;
     }
   }
+
+  .navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 3rem;
+    line-height: inherit;
+    white-space: nowrap;
 
   .navbar-nav {
     .nav-link {
