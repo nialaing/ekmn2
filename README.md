@@ -62,8 +62,8 @@ We used One Page Wonder for the Bootstrap template: https://github.com/StartBoot
  
 Below are links to our website and group GitHub repository:
  
-* The URL of the deployed application:.......
+* The URL of the deployed application:https://github.com/nialaing/ekmn2
  
-* The URL of the GitHub repository:.........
+* The URL of the GitHub repository: https://nialaing.github.io/ekmn2/
 
 
