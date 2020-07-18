@@ -9,8 +9,8 @@ Hi everyone! I want to introduce you to our project, Kaleidoscope Kitchen – a 
 The goal of Kaleidoscope Kitchen is to inspire people to try new recipes and awaken their palate to international flavors.
 
 To accomplish this, we:
-•	Designed a mockup on Canva,
-•	And found inspiration from real-world food websites including: Minimalist Baker, Pinch of Yum, Hello Fresh, and Blue Apron
+  - Designed a mockup on Canva,
+  - Found inspiration from real-world food websites including: Minimalist Baker, Pinch of Yum, Hello Fresh, and Blue Apron
 
 With the mockups and inspiration, we built simple-yet-beautiful webpages that really showcase the beauty of the food. See our homepage mockup below:
 
