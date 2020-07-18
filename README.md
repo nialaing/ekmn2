@@ -2,9 +2,7 @@
 
 ![](img/screen1.png)
  
-## About
- 
-Hi everyone! I want to introduce you to our project, Kaleidoscope Kitchen – a food blog by Kyle, Ebony, Marsha, and myself, Nia. 
+## About 
 
 The goal of Kaleidoscope Kitchen is to inspire people to try new recipes and awaken their palate to international flavors.
 
