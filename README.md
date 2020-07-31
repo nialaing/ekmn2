@@ -18,12 +18,12 @@ With the mockups and inspiration, we built simple-yet-beautiful webpages that re
 
 It was also important to us that we gain real-world experience and build a potential client relationship. 
 
-We took cues from the “COVID-19 responses” and nonprofit partnerships you see on a lot of websites today, and we created a philanthropy page. 
+We took cues from the “COVID-19 responses” and non-profit partnerships you see on a lot of websites today, and we created a philanthropy page. 
 
-We met with Dr. Theresa Holt, who runs a nonprofit called ‘Helping Others Live Together’ in Stone Mountain, GA which delivers food and basic necessities to families with at-risk childen. Dr. Theresa had two problems:
+We met with Dr. Theresa Holt, who runs a non-profit called ‘Helping Others Live Together’ in Stone Mountain, GA which delivers food and basic necessities to families with at-risk childen. Dr. Theresa had two problems:
 
 1. She was backed up with requests from families on her personal cell phone number;
-2. Her nonprofit currently doesn't have a website or any solution to process requests from families.
+2. Her non-profit currently doesn't have a website or any solution to process requests from families.
 
 On our philanthropy page, there is a form that families in need can fill out to receive a free box full of recipe ingredients. We used this as page to practice and test out what a digital solution could look like for HOLT Inc.
 
